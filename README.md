@@ -117,17 +117,17 @@ Passos básicos:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a **Licença MIT**.
 
 Isso significa que qualquer pessoa pode:
 
-Usar o código
+* Usar o código
 
-Estudar o projeto
+* Estudar o projeto
 
-Modificar
+* Modificar
 
-Distribuir
+* Distribuir
 
 Desde que mantenha o aviso de direitos autorais e a licença original.
 
