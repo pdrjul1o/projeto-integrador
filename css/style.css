@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background: #211440;
+}
+
+.logo-header {
+    width: 130px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-family: inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-principal {
+    width: 500;
+}
+
+.teste {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.teste>strong {
+    color: #9B3CFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero {
+    background: linear-gradient(#211440, #0B1120);
+}
+
+.login {
+    background-color: #412C73;
+    border-radius: 50px;
+    border: solid #9B3CFF 0.5px;
+    padding: 6px 12px;
+    color: #FFF;
+    font-family: inter;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 8px;
+}
+
+.pessoa-icone {
+    width: 18px;
+    height: 18px;
+}
+
+.hero-btn1 {
+    background-color: #9B3CFF;
+    border-radius: 50px;
+    border: solid #9B3CFF;
+    filter: drop-shadow(0 0 30px #9B3CFF);
+    width: 260px;
+    height: 81px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-btn2 {
+    background-color: #00000000 ;
+    border-radius: 50px;
+    border: solid #9B3CFF 2px;
+    filter: drop-shadow(0 0 30px #9B3CFF);
+    width: 259px;
+    height: 81px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+hr{
+    width: 550px;
+    border: solid 1px #7720d2;
+    margin: 50px 0px;
+}
+.hero-left, .header-left, .footer-left{
+    margin: 50px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right{
+    margin-right: 50px;
+}
