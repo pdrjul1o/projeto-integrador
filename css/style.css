@@ -124,6 +124,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
 }
 
 .header-right {
@@ -329,27 +330,11 @@ p {
     border: 1px solid #9B3CFF;
     background: #211440;
     box-shadow: 0 0 20px 0 #9B3CFF;
+    width: 290px;
+    height: 655px;
 }
 
-.pedro {
-    border-radius: 30px 30px 0 0;
-    border: 1px solid #9B3CFF;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-}
-
-.micaias {
-    border-radius: 30px 30px 0 0;
-    border: 1px solid #9B3CFF;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-}
-
-.henrique {
-    border-radius: 30px 30px 0 0;
-    border: 1px solid #9B3CFF;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-}
-
-.allan {
+.participantes {
     border-radius: 30px 30px 0 0;
     border: 1px solid #9B3CFF;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
@@ -360,15 +345,121 @@ p {
     height: 63px;
     aspect-ratio: 5/7;
 }
-.habilidade-html {
-    width: 45px;
-    height: 63px;
-    aspect-ratio: 5/7;
+
+.habilidade-figma {
+    width: 44px;
+    height: 64px;
+    aspect-ratio: 11/16;
 }
-.habilidade-html {
+
+.habilidade-js {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: 1/1;
+}
+
+.habilidade-css {
     width: 45px;
-    height: 63px;
-    aspect-ratio: 5/7;
+    height: 64px;
+    aspect-ratio: 45/64;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-content>p {
+    margin: 0%;
+}
+
+.card-content>h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #0B1120;
+}
+
+.cta-section>div>h1 {
+    margin: 0%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.cta-section>div {
+    margin-left: 100px;
+}
+
+.cta-btn {
+    background-color: #9b3cff;
+    border-radius: 200px;
+    border: solid #9b3cff;
+    filter: drop-shadow(0 0 30px #9b3cff);
+    width: 409px;
+    height: 127px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cta-p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+footer {
+    background: #211540;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left>img {
+    width: 130px;
+    height: 37px;
+    margin-top: 27px;
+}
+
+.footer-left>p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-right {
+    margin-right: 100px;
 }
 
 /*PARTE DE MOSKITO/
@@ -377,10 +468,13 @@ p {
 
 .open-app {
     width: 620px;
-    height: 310px;
+    height: 280px;
     border-radius: 20px;
     background: linear-gradient(180deg, #0B1120 0%, #2F2052 100%);
     box-shadow: 0 0 10px 0 #9B3CFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .open-app,
@@ -398,6 +492,7 @@ p {
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 400;
+    margin: 0;
 }
 
 .open-app p {
@@ -405,4 +500,86 @@ p {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 300;
+    margin-top: 40px;
+}
+
+.open-app-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.app-img {
+    align-self: center;
+}
+
+.showcase-content {
+    margin: 0 100px;
+}
+
+.team-section-content {
+    margin: 0 100px;
+}
+
+.team-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.app {
+    height: 160px;
+    width: 620px;
+    background-color: #0b1120;
+    border-radius: 20px;
+    border: 2px solid #5B2E8B;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.apps-content {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.showcase-apps {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase {
+    height: 100vh;
+    width: 100%;
+}
+
+.h2-margin0 {
+    margin-top: 20px
+}
+
+footer ul {
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+footer{
+    padding: 30px 0;
+}
+.p1{
+    text-decoration: underline;
 }
