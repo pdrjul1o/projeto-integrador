@@ -217,3 +217,71 @@ header {
 .hero-left {
     margin-top: 120px;
 }
+.eyerbrow{
+    font-size: 28px;
+    font-family: montserrat;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+strong{
+    color: #9b3cff;
+    text-shadow: 0 0 10px #7720D2;
+}
+.about{
+    background-color: #0b1120;
+}
+p{
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-containers{
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0 0 10px #9B3CFF);
+    margin-top: 120px;
+}
+.about-container{
+    height: 290px;
+    background-color: #211440;
+    width: 290px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container span{
+    background-color: #9B3CFF;
+    color: #0b1120;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 64px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.about-content{
+    margin: 0 100px;
+}
+.showcase{
+    background: linear-gradient(180deg, #0B1120 0%, #211440 100%);
+}
+.showcase h2{
+    text-align: center;
+}
+.showcase .eyerbrow{
+    margin: auto;
+}
