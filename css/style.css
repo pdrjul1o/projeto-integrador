@@ -174,6 +174,7 @@ header {
     object-fit: cover;
     flex-shrink: 0;
 }
+
 .carrossel button {
     position: absolute;
     top: 50%;
@@ -185,12 +186,17 @@ header {
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
-  }
-  
-  .prev { left: 12px; }
-  .next { right: 12px; }
+}
 
-  .carrosel-index {
+.prev {
+    left: 12px;
+}
+
+.next {
+    right: 12px;
+}
+
+.carrosel-index {
     position: absolute;
     bottom: 12px;
     left: 50%;
@@ -199,56 +205,65 @@ header {
     gap: 8px;
     display: flex;
     align-items: center;
-  }
-  
-  .carrosel-index span {
+}
+
+.carrosel-index span {
     width: 8px;
     height: 8px;
     border-radius: 50%;
     background: white;
     cursor: pointer;
-  }
-  
-  .carrosel-index span.active {
+}
+
+.carrosel-index span.active {
     background: linear-gradient(180deg, #7720D2 0%, #2857FF 100%);
     height: 10px;
     width: 10px;
-  }
+}
+
 .hero-left {
     margin-top: 120px;
 }
-.eyerbrow{
+
+.eyerbrow {
     font-size: 28px;
     font-family: montserrat;
     font-weight: 400;
     color: white;
+    margin: 0;
 }
-h2{
+
+h2 {
     font-family: montserrat;
     font-size: 40px;
     font-weight: 600;
     color: #ffffff;
 }
-strong{
+
+strong {
     color: #9b3cff;
     text-shadow: 0 0 10px #7720D2;
 }
-.about{
+
+.about {
     background-color: #0b1120;
 }
-p{
+
+p {
     color: #ffffff;
     font-family: montserrat;
     font-size: 24px;
     font-weight: 500;
 }
-.about-containers{
+
+.about-containers {
     display: flex;
     justify-content: space-between;
     filter: drop-shadow(0 0 10px #9B3CFF);
     margin-top: 120px;
 }
-.about-container{
+
+.about-container {
     height: 290px;
     background-color: #211440;
     width: 290px;
@@ -259,7 +274,7 @@ p{
     flex-direction: column;
 }
 
-.about-container span{
+.about-container span {
     background-color: #9B3CFF;
     color: #0b1120;
     font-family: montserrat;
@@ -269,19 +284,125 @@ p{
     border-radius: 50px;
     margin-top: 64px;
 }
-.about{
+
+.about {
     height: 100vh;
     width: 100%;
 }
-.about-content{
+
+.about-content {
     margin: 0 100px;
 }
-.showcase{
+
+.showcase {
     background: linear-gradient(180deg, #0B1120 0%, #211440 100%);
 }
-.showcase h2{
+
+.showcase h2 {
     text-align: center;
 }
-.showcase .eyerbrow{
-    margin: auto;
+
+.eyerbrow-center {
+    font-size: 28px;
+    font-family: montserrat;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.team-section {
+    background: linear-gradient(180deg, #211440 0%, #0B1120 100%);
+}
+
+.profissionais {
+    text-align: center;
+}
+
+.team-showcase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 30px;
+    border: 1px solid #9B3CFF;
+    background: #211440;
+    box-shadow: 0 0 20px 0 #9B3CFF;
+}
+
+.pedro {
+    border-radius: 30px 30px 0 0;
+    border: 1px solid #9B3CFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.micaias {
+    border-radius: 30px 30px 0 0;
+    border: 1px solid #9B3CFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.henrique {
+    border-radius: 30px 30px 0 0;
+    border: 1px solid #9B3CFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.allan {
+    border-radius: 30px 30px 0 0;
+    border: 1px solid #9B3CFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.habilidade-html {
+    width: 45px;
+    height: 63px;
+    aspect-ratio: 5/7;
+}
+.habilidade-html {
+    width: 45px;
+    height: 63px;
+    aspect-ratio: 5/7;
+}
+.habilidade-html {
+    width: 45px;
+    height: 63px;
+    aspect-ratio: 5/7;
+}
+
+/*PARTE DE MOSKITO/
+/*------------------------------------------------*/
+/*PARTE DE PEDRO*/
+
+.open-app {
+    width: 620px;
+    height: 310px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #0B1120 0%, #2F2052 100%);
+    box-shadow: 0 0 10px 0 #9B3CFF;
+}
+
+.open-app,
+.app {
+    h3 {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+.open-app h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.open-app p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
 }
