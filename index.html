@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexus</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -48,16 +47,14 @@
             <div class="hero-right">
                 <div class="carrossel">
                     <div class="slides">
-                        <img src="foto1.jpg" alt="1" />
-                        <img src="foto2.jpg" alt="2" />
-                        <img src="foto3.jpg" alt="3" />
+                        <img src="img/foto1.png" alt="1" />
+                        <img src="img/foto2.png" alt="2" />
+                        <img src="img/foto3.png" alt="3" />
                     </div>
                     <button class="prev">&#10094;</button>
                     <button class="next">&#10095;</button>
                     <div class="carrosel-index">
-                        <span></span>
-                        <span></span>
-                        <span class="active"></span>
+
                     </div>
                 </div>
             </div>
@@ -95,27 +92,42 @@
                 <div class="showcase-apps">
                     <div class="apps-content">
                         <div class="apps">
-                            <div class="open-app app-top">
-                                <div class="open-app-top">
+                            <div class="app open-app" data-image="img/flow-screen.png">
+                                <div class="app-top">
                                     <img src="img/flow.png" alt="">
                                     <h3>FLOW</h3>
                                 </div>
-                                <h4>App de produtividade</h4>
-                                <p>Organização de tarefas com foco em simplicidade</p>
+                                <div class="app-details">
+                                    <h4>App de produtividade</h4>
+                                    <p>Organização de tarefas com foco em simplicidade</p>
+                                </div>
                             </div>
-                            <div class="app">
-                                <img src="img/orbit.png" alt="">
-                                <h3>ORBIT</h3>
+                            <div class="app" data-image="img/orbit-screen.png">
+                                <div class="app-top">
+                                    <img src="img/orbit.png" alt="">
+                                    <h3>ORBIT</h3>
+                                </div>
+                                <div class="app-details">
+                                    <h4>App de organização</h4>
+                                    <p>Controle inteligente de projetos</p>
+                                </div>
                             </div>
-                            <div class="app">
-                                <img src="img/pulse.png" alt="">
-                                <h3>PULSE</h3>
+                            <div class="app" data-image="img/pulse-screen.png">
+                                <div class="app-top">
+                                    <img src="img/pulse.png" alt="">
+                                    <h3>PULSE</h3>
+                                </div>
+                                <div class="app-details">
+                                    <h4>App de foco</h4>
+                                    <p>Gerenciamento de hábitos diários</p>
+                                </div>
                             </div>
                         </div>
                         <div class="app-image">
-                            <img src="" alt="">
-                            <img src="img/iphone.png" alt="borda de um celular">
+                            <img class="app-screen" src="img/flow-screen.png" alt="tela do app">
+                            <img class="app-frame" src="img/iphone.png" alt="borda do celular">
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -191,6 +203,6 @@
             <p class="p2">© 2026 NEXUS.</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
