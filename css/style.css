@@ -1,10 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/*====================
+UNIVERSAL
+====================*/
 body {
     margin: 0;
 }
 
+.hero-left,
+.header-left,
+.footer-left {
+    margin-left: 100px;
+}
+
+.eyerbrow {
+    font-size: 28px;
+    font-family: montserrat;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+strong {
+    color: #9b3cff;
+    text-shadow: 0 0 10px #7720D2;
+}
+
+p {
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.eyerbrow-center {
+    font-size: 28px;
+    font-family: montserrat;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/*====================
+HEADER
+====================*/
 header {
     background: #211440;
 }
@@ -32,6 +80,31 @@ header {
     color: #ffffff;
 }
 
+.login {
+    background-color: #412c73;
+    border-radius: 50px;
+    border: solid #9b3cff 0.5px;
+    padding: 6px 12px;
+    color: #fff;
+    font-family: inter;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 8px;
+}
+
+.pessoa-icone {
+    width: 18px;
+    height: 18px;
+}
+
+
+/*====================
+HERO
+====================*/
+
 .logo-principal {
     width: 500;
 }
@@ -56,26 +129,6 @@ header {
 
 .hero {
     background: linear-gradient(#211440, #0b1120);
-}
-
-.login {
-    background-color: #412c73;
-    border-radius: 50px;
-    border: solid #9b3cff 0.5px;
-    padding: 6px 12px;
-    color: #fff;
-    font-family: inter;
-    display: flex;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    gap: 8px;
-}
-
-.pessoa-icone {
-    width: 18px;
-    height: 18px;
 }
 
 .hero-btn1 {
@@ -114,12 +167,6 @@ hr {
     margin: 50px 0px;
 }
 
-.hero-left,
-.header-left,
-.footer-left {
-    margin-left: 100px;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -153,6 +200,7 @@ header {
     margin-top: 120px;
 }
 
+/*--CAROUSEL--*/
 .carrossel {
     width: 600px;
     height: 600px;
@@ -226,35 +274,12 @@ header {
     margin-top: 120px;
 }
 
-.eyerbrow {
-    font-size: 28px;
-    font-family: montserrat;
-    font-weight: 400;
-    color: white;
-    margin: 0;
-}
-
-h2 {
-    font-family: montserrat;
-    font-size: 40px;
-    font-weight: 600;
-    color: #ffffff;
-}
-
-strong {
-    color: #9b3cff;
-    text-shadow: 0 0 10px #7720D2;
-}
+/*====================
+ABOUT
+====================*/
 
 .about {
     background-color: #0b1120;
-}
-
-p {
-    color: #ffffff;
-    font-family: montserrat;
-    font-size: 24px;
-    font-weight: 500;
 }
 
 .about-containers {
@@ -295,6 +320,10 @@ p {
     margin: 0 100px;
 }
 
+/*====================
+SHOWCASE
+====================*/
+
 .showcase {
     background: linear-gradient(180deg, #0B1120 0%, #211440 100%);
 }
@@ -302,169 +331,6 @@ p {
 .showcase h2 {
     text-align: center;
 }
-
-.eyerbrow-center {
-    font-size: 28px;
-    font-family: montserrat;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-    margin: 0;
-}
-
-.team-section {
-    background: linear-gradient(180deg, #211440 0%, #0B1120 100%);
-}
-
-.profissionais {
-    text-align: center;
-}
-
-.team-showcase {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    border-radius: 30px;
-    border: 1px solid #9B3CFF;
-    background: #211440;
-    box-shadow: 0 0 20px 0 #9B3CFF;
-    width: 290px;
-    height: 655px;
-}
-
-.participantes {
-    border-radius: 30px 30px 0 0;
-    border: 1px solid #9B3CFF;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-}
-
-.habilidade-html {
-    width: 45px;
-    height: 63px;
-    aspect-ratio: 5/7;
-}
-
-.habilidade-figma {
-    width: 44px;
-    height: 64px;
-    aspect-ratio: 11/16;
-}
-
-.habilidade-js {
-    width: 64px;
-    height: 64px;
-    aspect-ratio: 1/1;
-}
-
-.habilidade-css {
-    width: 45px;
-    height: 64px;
-    aspect-ratio: 45/64;
-}
-
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nome {
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.card-content>p {
-    margin: 0%;
-}
-
-.card-content>h4 {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.cta-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: #0B1120;
-}
-
-.cta-section>div>h1 {
-    margin: 0%;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
-}
-
-.cta-section>div {
-    margin-left: 100px;
-}
-
-.cta-btn {
-    background-color: #9b3cff;
-    border-radius: 200px;
-    border: solid #9b3cff;
-    filter: drop-shadow(0 0 30px #9b3cff);
-    width: 409px;
-    height: 127px;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.cta-p {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-footer {
-    background: #211540;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-left>img {
-    width: 130px;
-    height: 37px;
-    margin-top: 27px;
-}
-
-.footer-left>p {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.footer-right {
-    margin-right: 100px;
-}
-
-/*PARTE DE MOSKITO/
-/*------------------------------------------------*/
-/*PARTE DE PEDRO*/
 
 .open-app {
     width: 620px;
@@ -504,15 +370,6 @@ footer {
     margin: 0 100px;
 }
 
-.team-section-content {
-    margin: 0 100px;
-}
-
-.team-section {
-    height: 100vh;
-    width: 100%;
-}
-
 .app {
     width: 620px;
     height: 160px;
@@ -548,28 +405,6 @@ footer {
 .showcase {
     height: 100vh;
     width: 100%;
-}
-
-.h2-margin0 {
-    margin-top: 20px
-}
-
-footer ul {
-    color: white;
-}
-
-footer ul li a {
-    color: white;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-}
-footer{
-    padding: 30px 0;
-}
-.p1{
-    text-decoration: underline;
 }
 
 .app-top{
@@ -654,4 +489,195 @@ footer{
     transform: translateY(0) scale(1);
 }
 
+/*====================
+TEAM
+====================*/
 
+.team-section {
+    background: linear-gradient(180deg, #211440 0%, #0B1120 100%);
+}
+
+.profissionais {
+    text-align: center;
+}
+
+.team-showcase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 30px;
+    border: 1px solid #9B3CFF;
+    background: #211440;
+    box-shadow: 0 0 20px 0 #9B3CFF;
+    width: 290px;
+    height: 655px;
+}
+
+.participantes {
+    border-radius: 30px 30px 0 0;
+    border: 1px solid #9B3CFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.habilidade-html {
+    width: 45px;
+    height: 63px;
+    aspect-ratio: 5/7;
+}
+
+.habilidade-figma {
+    width: 44px;
+    height: 64px;
+    aspect-ratio: 11/16;
+}
+
+.habilidade-js {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: 1/1;
+}
+
+.habilidade-css {
+    width: 45px;
+    height: 64px;
+    aspect-ratio: 45/64;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-content>p {
+    margin: 0%;
+}
+
+.card-content>h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*====================
+CTA
+====================*/
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #0B1120;
+}
+
+.cta-section>div>h1 {
+    margin: 0%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.cta-section>div {
+    margin-left: 100px;
+}
+
+.cta-btn {
+    background-color: #9b3cff;
+    border-radius: 200px;
+    border: solid #9b3cff;
+    filter: drop-shadow(0 0 30px #9b3cff);
+    width: 409px;
+    height: 127px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cta-p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/*====================
+FOOTER
+====================*/
+
+footer {
+    background: #211540;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left>img {
+    width: 130px;
+    height: 37px;
+    margin-top: 27px;
+}
+
+.footer-left>p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-right {
+    margin-right: 100px;
+}
+
+/*--------------*/
+.team-section-content {
+    margin: 0 100px;
+}
+
+.team-section {
+    height: 100vh;
+    width: 100%;
+}
+.h2-margin0 {
+    margin-top: 20px
+}
+
+footer ul {
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+footer{
+    padding: 30px 0;
+}
+.p1{
+    text-decoration: underline;
+}
