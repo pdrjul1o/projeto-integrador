@@ -115,6 +115,12 @@ Passos básicos:
 
 ---
 
+## 🖌️ Design do Projeto
+
+🔗 **Link do design no Figma:**
+
+> *https://www.figma.com/design/b57nzXACtzCtv9ycSh9jXq/Projeto-Integrador?node-id=12-17&t=Y0g8yPdQFzKrj4Wi-1*
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a **Licença MIT**.
