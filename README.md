@@ -112,6 +112,7 @@ Passos básicos:
 2. Importar o repositório do GitHub/GitLab
 3. Configurar como projeto estático
 4. Realizar o deploy
+5. https://vercel.com/pedros-projects-bc9a9a3a/projeto-integrador/tJ3KdZUpwrC3KEDVDUBpBZmApByd
 
 ---
 
